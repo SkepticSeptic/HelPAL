@@ -8,4 +8,11 @@ Note: you need an OpenAI API key to use this. You can get this here: https://pla
 
 1. Download the HelPAL repository
 2. CD to the main folder of the HelPAL repository
-# COMPLETE THE REST OF THIS
+3. Open the ".env" file with nano, notepad, or any other text editor
+4. Add your OpenAI API key as well as your training data if you are adding any
+5. Go back to the main folder
+6. Open the "helpal-frontend.html" with any text editor
+7. Copy the ".karopka" and ".otvetnoya" CSS into your <style> tags in your website
+8. Copy everything below the CSS on top of all your webpage elements
+9. Go back to the main folder
+10. Move the "app.py", ".env", and "
