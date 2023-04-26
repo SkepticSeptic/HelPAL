@@ -15,4 +15,11 @@ Note: you need an OpenAI API key to use this. You can get this here: https://pla
 7. Copy the ".karopka" and ".otvetnoya" CSS into your <style> tags in your website
 8. Copy everything below the CSS on top of all your webpage elements
 9. Go back to the main folder
-10. Move the "app.py", ".env", and "
+10. Move the "app.py", ".env", and "icon.png" files into your web server
+11. Run chmod +x setup.sh
+12. Run "./setup.sh"
+
+  And that's it! Enjoy!
+
+  
+  Note: This is licensed under GPLV3, meaning you can modify anything you want in this code, enjoy!
