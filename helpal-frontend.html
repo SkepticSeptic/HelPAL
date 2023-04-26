@@ -1,0 +1,48 @@
+<!--COPY THE FOLLOWING CODE AND PASTE IT INTO YOUR index.html SITE FILE (AND ANY OTHER WEBPAGE FILES YOU WANT HELPAL TO BE ON-->
+
+
+  
+
+<!--paste this into your <style> tags-->
+  <style>
+    .karopka {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      border-radius: 10px;
+      border: 2px solid #0000cd;
+      width: 220px; /* Adjust the width to your desired size */
+      height: 400px; /* Adjust the height to your desired size */
+      position: absolute;
+      bottom: 50%; /* Adjust this value to control how far from the bottom of the screen the box will appear */
+      left: 50%;
+      transform: translate(-430%,+0%);
+    }
+    .otvetnoya {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      border-radius: 10px;
+      border: 2px solid #44cd00;
+      width: 220px; /* Adjust the width to your desired size */
+      height: 300px; /* Adjust the height to your desired size */
+      position: absolute;
+      bottom: 50%; /* Adjust this value to control how far from the bottom of the screen the box will appear */
+      left: 50%;
+      transform: translate(-430%,+50%);
+    }
+  </style>
+
+
+<!--paste this somewhere where it will stay on top of other page elements-->
+  <div class="karopka"><img src="{{ url_for('static', filename='icon.png') }}" class="icon" />
+    <h3>Ask HelPAL</h3>
+    <form action="/" method="post">
+      <input type="text" name="animal" placeholder="What do you need help with?" required style="width:200px; height: 30px; margin-top: 10px;"/>
+      <input type="submit" value="Submit" />
+    </form>
+  
+  </div>
+  {% if result %}
+  <div class="otvetnoya">{{ result }}</div>
+  {% endif %}
