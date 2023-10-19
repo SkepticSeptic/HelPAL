@@ -1,4 +1,4 @@
-#NOTE: This POC has been retired due to the influx of more effective easily integratable solutions. Feel free to use this, but do not expect active development.
+# NOTE: This POC has been retired due to the influx of more effective easily integratable solutions. Feel free to use this, but do not expect active development.
 
 # HelPAL for web servers
 GPT3 powered AI tech support/helper bot with customizable training data
